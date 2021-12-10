@@ -1,0 +1,23 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import CoreUI styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// If you want to add something do it here
+@import "custom";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+//.c-body, .c-app, .c-default-layout {
+    //background-color: #FFF;
+//}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.85
+    ;
+}
+
+.c-app {
+    background-color: #f3f3f4;
+}
